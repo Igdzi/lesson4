@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: rgb(191, 182, 246);
+}
+
+ul li p {
+  font-size: 1.05rem;
+  padding: 1.05rem;
+  background-color: rgb(192, 191, 255);
+}
+
+.class1 {
+  font-size: 1.1rem;
+  padding: 1.1rem;
+  background-color: rgb(191, 203, 255);
+}
+
+.class2 p {
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  background-color: rgb(191, 218, 255);
+}
+
+.class3>p {
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  background-color: rgb(191, 238, 255);
+}
+
+.class4 .class4-in p {
+  font-size: 1.3rem;
+  padding: 1.3rem;
+  background-color: rgb(191, 255, 236);
+}
+
+#id1 {
+  font-size: 1.4rem;
+  padding: 1.4rem;
+  background-color: rgb(191, 255, 194);
+}
+
+#id2 p {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  background-color: rgb(214, 255, 191);
+}
+
+#id3 .class5 p {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  background-color: rgb(243, 255, 191);
+}
+
+#id4 .class6 .class7 p {
+  font-size: 1.7rem;
+  padding: 1.7rem;
+  background-color: rgb(255, 238, 191);
+}

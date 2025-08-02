@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <p>Застосовуєтся до тегів p. Вага: 1</p>
+
+  <ul>
+    <li>
+      <p>Тег a вкладений в li, який вкладений в ul. Вага:3</p>
+    </li>
+  </ul>
+
+  <p class="class1">Застосовуєтся до тегів p з класом. Вага:10</p>
+
+  <div class="class2">
+    <p>Застосовуєтся до тегів p вкладених на 1 рівні в div з класом. Вага:11</p>
+  </div>
+
+  <div class="class3">
+    <p>Застосовуєтся до тегів p, який є дочірним в div з класом. Вага:11</p>
+  </div>
+
+  <div class="class4">
+    <div class="class4-in">
+      <p>Застосовуєтся до тегів p вкладених на 2 рівні в div з класом. Вага:21</p>
+    </div>
+  </div>
+
+  <p id="id1">Застосовуєтся до тегів p з id. Вага:100</p>
+
+  <div id="id2">
+    <p>Застосовуєтся до тегів p, який є вкладений в div з id. Вага:101</p>
+  </div>
+
+  <div id="id3">
+    <div class="class5">
+      <p>Застосовуєтся до тегів p вкладених на 2 рівні в div з класом, який вкладений в id. Вага:111</p>
+    </div>
+  </div>
+
+  <div id="id4">
+    <div class="class6">
+      <div class="class7">
+        <p>Застосовуєтся до тегів p вкладених на 3 рівні в 2х div з класом, які вкладені в id. Вага:121</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
